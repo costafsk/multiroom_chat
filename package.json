@@ -1,0 +1,21 @@
+{
+  "name": "multiroom_chat",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Diego Costa <diego.machado.d.costa@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon app/app"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "consign": "^0.1.6",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "express-validator": "^5.3.1",
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
